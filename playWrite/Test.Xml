@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Providio Smoke Test">
+
+	 <test name="SmokeTest">
+	
+        <classes>
+		<class name ="TestScripts.loginTest"/>
+		<class name ="TestScripts.OrgEditionandCurrencyCheck"/> 
+	 	<methods>
+	 	  <include name="orgEdtitionCheck" />	
+	 	  <include name="currecyIsSetToUsd" />							 
+       </methods>     
+     </classes>
+    </test>
+</suite>
+

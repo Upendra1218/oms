@@ -1,0 +1,327 @@
+2024-03-26 17:06:22,559 - crm -INFO - launching
+2024-03-26 17:06:31,482 - crm -INFO - launching
+2024-03-26 17:54:02,583 - crm -INFO - launching
+2024-03-26 17:54:11,220 - crm -INFO - launching
+2024-03-27 10:39:49,257 - crm -INFO - launching
+2024-03-27 10:39:57,827 - crm -INFO - launching
+2024-03-27 10:40:16,543 - crm -INFO - launching
+2024-03-27 10:40:24,767 - crm -INFO - launching
+2024-03-27 10:43:47,617 - crm -INFO - launching
+2024-03-27 10:43:56,060 - crm -INFO - launching
+2024-03-27 10:58:55,420 - crm -INFO - launching
+2024-03-27 10:59:04,107 - crm -INFO - launching
+2024-03-27 11:02:28,328 - crm -INFO - launching
+2024-03-27 11:02:36,836 - crm -INFO - launching
+2024-03-27 11:03:11,344 - crm -INFO - launching
+2024-03-27 11:03:19,790 - crm -INFO - launching
+2024-03-27 11:13:20,464 - crm -INFO - launching
+2024-03-27 11:13:28,716 - crm -INFO - launching
+2024-03-27 11:14:04,928 - crm -INFO - [TestResult name=main status=FAILURE method=Auth.main()[pri:0, instance:playWrite.Auth@1ebea008] output={null}]
+2024-03-27 11:16:45,306 - crm -INFO - launching
+2024-03-27 11:16:53,516 - crm -INFO - launching
+2024-03-27 11:17:29,731 - crm -INFO - [TestResult name=main status=FAILURE method=Auth.main()[pri:0, instance:playWrite.Auth@1ebea008] output={null}]
+2024-03-27 11:56:26,032 - crm -INFO - launching
+2024-03-27 11:56:34,617 - crm -INFO - launching
+2024-03-27 11:57:10,716 - crm -INFO - 2
+2024-03-27 11:57:57,959 - crm -INFO - launching
+2024-03-27 11:58:05,933 - crm -INFO - launching
+2024-03-27 11:58:42,143 - crm -INFO - 2
+2024-03-27 12:00:49,187 - crm -INFO - launching
+2024-03-27 12:00:57,372 - crm -INFO - launching
+2024-03-27 12:01:33,416 - crm -INFO - 2
+2024-03-27 12:01:33,416 - crm -INFO - coming hers
+2024-03-27 12:04:49,814 - crm -INFO - launching
+2024-03-27 12:04:58,601 - crm -INFO - launching
+2024-03-27 12:05:34,785 - crm -INFO - Test result status: 2
+2024-03-27 12:05:34,786 - crm -INFO - Test failed. Capturing screenshot.
+2024-03-27 12:05:34,786 - crm -ERROR - Page object is null. Unable to capture screenshot.
+2024-03-27 12:29:56,958 - crm -INFO - launching
+2024-03-27 12:30:05,240 - crm -INFO - launching
+2024-03-27 14:27:48,033 - crm -INFO - launching
+2024-03-27 14:27:56,817 - crm -INFO - launching
+2024-03-27 14:34:08,256 - crm -INFO - launching
+2024-03-27 14:34:17,399 - crm -INFO - launching
+2024-03-27 14:36:37,516 - crm -INFO - launching
+2024-03-27 14:36:49,741 - crm -INFO - launching
+2024-03-27 14:39:19,787 - crm -INFO - launching
+2024-03-27 14:39:28,823 - crm -INFO - launching
+2024-03-27 14:47:00,637 - crm -INFO - launching
+2024-03-27 14:47:10,402 - crm -INFO - launching
+2024-03-27 14:47:47,378 - crm -INFO - Test result status: 2
+2024-03-27 14:47:47,380 - crm -INFO - Test failed. Capturing screenshot.
+2024-03-27 14:47:47,381 - crm -ERROR - Page object is null. Unable to capture screenshot.
+2024-03-27 14:51:41,547 - crm -INFO - launching
+2024-03-27 14:51:50,959 - crm -INFO - launching
+2024-03-27 14:56:22,067 - crm -INFO - launching
+2024-03-27 14:56:31,372 - crm -INFO - launching
+2024-03-27 14:57:07,581 - crm -INFO - main_failure.png
+2024-03-27 15:04:12,338 - crm -INFO - launching
+2024-03-27 15:04:48,632 - crm -INFO - main_failure.png
+2024-03-27 15:13:17,137 - crm -INFO - launching
+2024-03-27 15:14:27,015 - crm -INFO - launching
+2024-03-27 15:14:34,352 - crm -INFO - main_failure.png
+2024-03-27 15:15:03,398 - crm -INFO - main_failure.png
+2024-03-27 15:15:10,189 - crm -INFO - launching
+2024-03-27 15:15:17,631 - crm -INFO - main_failure.png
+2024-03-27 15:15:57,937 - crm -INFO - launching
+2024-03-27 15:16:05,177 - crm -INFO - main_failure.png
+2024-03-27 15:17:22,220 - crm -INFO - launching
+2024-03-27 15:18:55,577 - crm -INFO - launching
+2024-03-27 15:19:08,438 - crm -INFO - main_failure.png
+2024-03-27 15:19:50,533 - crm -INFO - launching
+2024-03-27 15:21:36,301 - crm -INFO - launching
+2024-03-27 16:12:49,250 - crm -INFO - main_failure.png
+2024-03-27 16:12:51,673 - crm -INFO - Test result status: 1
+2024-03-27 16:17:08,964 - crm -INFO - main_failure.png
+2024-03-27 16:17:10,504 - crm -INFO - Test result status: 1
+2024-03-27 16:29:45,415 - crm -INFO - main_failure.png
+2024-03-27 16:29:48,114 - crm -INFO - Test result status: 1
+2024-03-27 16:34:51,096 - crm -INFO - main_failure.png
+2024-03-27 16:41:52,002 - crm -INFO - Test result status: 2
+2024-03-27 16:42:07,278 - crm -INFO - Test failed. Capturing screenshot.
+2024-03-27 16:42:36,069 - crm -INFO - Screenshot taken for test case: main
+2024-03-27 16:45:54,412 - crm -INFO - main123_failure.png
+2024-03-27 16:45:55,135 - crm -INFO - Test result status: 2
+2024-03-27 16:45:55,136 - crm -INFO - Test failed. Capturing screenshot.
+2024-03-27 16:45:55,741 - crm -INFO - Screenshot taken for test case: main123
+2024-03-27 17:07:26,576 - crm -INFO - main1235_failure.png
+2024-03-27 17:07:27,225 - crm -INFO - Test result status: 2
+2024-03-27 17:07:27,226 - crm -INFO - Test failed. Capturing screenshot.
+2024-03-27 17:07:27,808 - crm -INFO - Screenshot taken for test case: main1235
+2024-03-27 17:30:57,378 - crm -INFO - Test result status: 2
+2024-03-27 17:30:57,385 - crm -INFO - Test failed. Capturing screenshot.
+2024-03-27 17:30:57,957 - crm -INFO - Screenshots\main1235_failure.png
+2024-03-27 17:30:57,958 - crm -INFO - Screenshot taken for test case: main1235
+2024-03-27 17:42:29,096 - crm -INFO - Test result status: 2
+2024-03-27 17:42:29,101 - crm -INFO - Test failed. Capturing screenshot.
+2024-03-27 17:42:29,922 - crm -INFO - java.io.FileOutputStream@2d83c5a5
+2024-03-27 17:42:29,923 - crm -INFO - Screenshot taken for test case: main1235
+2024-03-27 17:54:56,707 - crm -INFO - Test result status: 2
+2024-03-27 17:54:56,714 - crm -INFO - Test failed. Capturing screenshot.
+2024-03-27 17:54:57,283 - crm -INFO - ./Screenshots/main1235_failure.png
+2024-03-27 17:54:57,284 - crm -INFO - Screenshot taken for test case: main1235
+2024-03-27 18:31:09,541 - crm -INFO - Test result status: 2
+2024-03-27 18:31:09,548 - crm -INFO - Test failed. Capturing screenshot.
+2024-03-27 18:31:10,112 - crm -INFO - ./Screenshots/main1235_failure.png
+2024-03-27 18:31:10,113 - crm -INFO - Screenshot taken for test case: main1235
+2024-03-28 10:25:12,335 - crm -INFO - Test result status: 2
+2024-03-28 10:25:12,343 - crm -INFO - Test failed. Capturing screenshot.
+2024-03-28 10:25:12,927 - crm -INFO - C:\Users\UpendraReddy\OneDrive - ETG Global Services Pvt. Ltd\Desktop\PlayWrite\playWrite\Screenshotsmain1235_failure.png
+2024-03-28 10:25:12,927 - crm -INFO - Screenshot taken for test case: main1235
+2024-03-28 10:33:49,293 - crm -INFO - Test result status: 2
+2024-03-28 10:33:49,314 - crm -INFO - Test failed. Capturing screenshot.
+2024-03-28 10:33:49,961 - crm -INFO - C:\Users\UpendraReddy\OneDrive - ETG Global Services Pvt. Ltd\Desktop\PlayWrite\playWrite\Screenshotsmain1235_failure.png
+2024-03-28 10:33:49,961 - crm -INFO - Screenshot taken for test case: main1235
+2024-03-28 10:56:19,177 - crm -INFO - Test result status: 2
+2024-03-28 10:56:19,185 - crm -INFO - Test failed. Capturing screenshot.
+2024-03-28 10:56:19,766 - crm -INFO - C:\Users\UpendraReddy\OneDrive - ETG Global Services Pvt. Ltd\Desktop\PlayWrite\playWrite\Screenshotsmain1235_failure.png
+2024-03-28 10:56:19,766 - crm -INFO - Screenshot taken for test case: main1235
+2024-03-28 11:05:31,139 - crm -INFO - Test failed. Capturing screenshot.
+2024-03-28 11:05:31,885 - crm -INFO - C:\Users\UpendraReddy\OneDrive - ETG Global Services Pvt. Ltd\Desktop\PlayWrite\playWrite\Screenshotsmain12353_failure.png
+2024-03-28 11:05:31,886 - crm -INFO - Screenshot taken for test case: main12353
+2024-03-28 11:08:53,681 - crm -INFO - Test failed. Capturing screenshot.
+2024-03-28 11:08:54,261 - crm -INFO - C:\Users\UpendraReddy\OneDrive - ETG Global Services Pvt. Ltd\Desktop\PlayWrite\playWrite\Screenshots\main12353_failure.png
+2024-03-28 11:08:54,262 - crm -INFO - Screenshot taken for test case: main12353
+2024-03-28 12:20:42,537 - crm -INFO - C:\Users\UpendraReddy\OneDrive - ETG Global Services Pvt. Ltd\Desktop\PlayWrite\playWrite\Screenshots\main12353_failure.png
+2024-03-28 12:20:42,541 - crm -INFO - Screenshot taken for test case: main12353
+2024-03-28 12:33:08,292 - crm -ERROR - Page object is null. Unable to capture screenshot.
+2024-03-28 12:34:44,210 - crm -ERROR - Page object is null. Unable to capture screenshot.
+2024-03-28 12:38:53,815 - crm -INFO - 2
+2024-03-28 12:38:53,822 - crm -ERROR - Page object is null. Unable to capture screenshot.
+2024-03-28 12:42:30,916 - crm -INFO - 1
+2024-03-28 12:45:30,775 - crm -INFO - 1
+2024-03-28 15:12:31,879 - crm -INFO - 1
+2024-03-28 18:04:32,645 - crm -INFO - 2
+2024-03-28 18:04:33,083 - crm -INFO - Screenshot taken for test case: Verifyinglogin
+2024-03-28 18:05:34,560 - crm -INFO - 2
+2024-03-28 18:05:34,853 - crm -INFO - Screenshot taken for test case: Verifyinglogin
+2024-03-28 18:06:23,534 - crm -INFO - 2
+2024-03-28 18:06:23,842 - crm -INFO - Screenshot taken for test case: Verifyinglogin
+2024-03-28 18:07:15,455 - crm -INFO - 2
+2024-03-28 18:07:15,715 - crm -INFO - Screenshot taken for test case: Verifyinglogin
+2024-03-28 18:09:33,837 - crm -INFO - 1
+2024-03-28 18:31:13,281 - crm -INFO - 1
+2024-03-28 18:37:27,357 - crm -INFO - 1
+2024-03-28 18:38:43,293 - crm -INFO - coming
+2024-03-28 18:38:43,322 - crm -INFO - coming1
+2024-03-28 18:38:43,325 - crm -INFO - 1
+2024-03-28 18:45:48,714 - crm -INFO - coming
+2024-03-28 18:45:48,750 - crm -INFO - coming1
+2024-03-28 18:45:48,755 - crm -INFO - 1
+2024-03-28 18:50:58,307 - crm -INFO - coming
+2024-03-28 18:50:58,349 - crm -INFO - 1
+2024-04-01 11:15:59,440 - crm -INFO - coming
+2024-04-01 11:15:59,451 - crm -INFO - Locator@div#brandBand_2
+2024-04-01 11:15:59,458 - crm -INFO - 1
+2024-04-01 11:17:54,568 - crm -INFO - coming
+2024-04-01 11:17:54,578 - crm -INFO - Locator@div#brandBand_2
+2024-04-01 11:17:54,590 - crm -INFO - 1
+2024-04-01 11:40:48,087 - crm -INFO - coming
+2024-04-01 11:40:48,097 - crm -INFO - Locator@div#brandBand_2
+2024-04-01 11:40:53,110 - crm -INFO - 1
+2024-04-01 15:28:06,040 - crm -INFO - coming
+2024-04-01 15:28:06,051 - crm -INFO - Locator@div#brandBand_2
+2024-04-01 15:28:11,072 - crm -INFO - 1
+2024-04-01 15:30:31,628 - crm -INFO - coming
+2024-04-01 15:30:31,639 - crm -INFO - Locator@div#brandBand_2
+2024-04-01 15:30:36,663 - crm -INFO - 1
+2024-04-01 15:31:42,312 - crm -INFO - coming
+2024-04-01 15:31:42,320 - crm -INFO - Locator@div#brandBand_2
+2024-04-01 15:31:47,342 - crm -INFO - 1
+2024-04-01 15:33:42,548 - crm -INFO - coming
+2024-04-01 15:33:42,558 - crm -INFO - Locator@div#brandBand_2
+2024-04-01 15:33:47,582 - crm -INFO - 1
+2024-04-01 15:38:37,933 - crm -INFO - coming
+2024-04-01 15:38:37,941 - crm -INFO - Locator@div#brandBand_2
+2024-04-01 15:38:42,964 - crm -INFO - coming here1
+2024-04-01 15:38:42,968 - crm -INFO - Verify whether the user is able to Enter the Input details in Quick Find Box search box on the Home page
+2024-04-01 15:38:47,636 - crm -INFO - Successfully send keys of Quick Find Box search box on the Home page
+2024-04-01 15:40:27,651 - crm -INFO - 1
+2024-04-01 15:41:24,799 - crm -INFO - coming
+2024-04-01 15:41:24,808 - crm -INFO - Locator@div#brandBand_2
+2024-04-01 15:41:29,833 - crm -INFO - 1
+2024-04-01 15:41:29,841 - crm -INFO - coming here
+2024-04-01 15:41:29,842 - crm -INFO - coming here1
+2024-04-01 15:41:29,844 - crm -INFO - Verify whether the user is able to Enter the Input details in Quick Find Box search box on the Home page
+2024-04-01 15:41:32,575 - crm -INFO - Successfully send keys of Quick Find Box search box on the Home page
+2024-04-01 15:43:12,586 - crm -INFO - 1
+2024-04-01 15:45:36,678 - crm -INFO - coming
+2024-04-01 15:45:36,688 - crm -INFO - Locator@div#brandBand_2
+2024-04-01 15:45:41,704 - crm -INFO - 1
+2024-04-01 15:45:41,713 - crm -INFO - coming here
+2024-04-01 15:45:41,714 - crm -INFO - coming here1
+2024-04-01 15:45:41,715 - crm -INFO - Verify whether the user is able to Enter the Input details in Quick Find Box search box on the Home page
+2024-04-01 15:45:47,055 - crm -INFO - Successfully send keys of Quick Find Box search box on the Home page
+2024-04-01 15:47:27,077 - crm -INFO - 1
+2024-04-01 15:51:30,665 - crm -INFO - coming
+2024-04-01 15:51:30,674 - crm -INFO - Locator@div#brandBand_2
+2024-04-01 15:51:35,690 - crm -INFO - 1
+2024-04-01 15:51:35,713 - crm -INFO - coming here
+2024-04-01 15:51:35,713 - crm -INFO - coming here1
+2024-04-01 15:51:35,715 - crm -INFO - Verify whether the user is able to Enter the Input details in Quick Find Box search box on the Home page
+2024-04-01 15:51:42,268 - crm -INFO - Successfully send keys of Quick Find Box search box on the Home page
+2024-04-01 15:53:23,431 - crm -INFO - 1
+2024-04-01 16:05:23,445 - crm -INFO - coming
+2024-04-01 16:05:23,456 - crm -INFO - Locator@div#brandBand_2
+2024-04-01 16:05:28,480 - crm -INFO - 1
+2024-04-01 16:05:28,493 - crm -INFO - Verify whether the user is able to Enter the Input details in Quick Find Box search box on the Home page
+2024-04-01 16:05:32,706 - crm -INFO - Successfully send keys of Quick Find Box search box on the Home page
+2024-04-01 16:05:35,963 - crm -INFO - Locator@//span[text()='Company Information']
+2024-04-01 16:07:20,993 - crm -INFO - 1
+2024-04-01 16:34:07,437 - crm -INFO - coming
+2024-04-01 16:34:07,449 - crm -INFO - Locator@div#brandBand_2
+2024-04-01 16:34:12,471 - crm -INFO - 1
+2024-04-01 16:34:12,480 - crm -INFO - Verify whether the user is able to Enter the Input details in Quick Find Box search box on the Home page
+2024-04-01 16:34:17,700 - crm -INFO - Successfully send keys of Quick Find Box search box on the Home page
+2024-04-01 16:34:21,153 - crm -INFO - Locator@//span[text()='Company Information']
+2024-04-01 16:36:06,208 - crm -INFO - 2
+2024-04-01 16:36:06,487 - crm -INFO - Screenshot taken for test case: orgEdtitionCheck
+2024-04-01 16:41:13,600 - crm -INFO - coming
+2024-04-01 16:41:13,611 - crm -INFO - Locator@div#brandBand_2
+2024-04-01 16:41:18,634 - crm -INFO - 1
+2024-04-01 16:41:18,645 - crm -INFO - Verify whether the user is able to Enter the Input details in Quick Find Box search box on the Home page
+2024-04-01 16:41:25,204 - crm -INFO - Successfully send keys of Quick Find Box search box on the Home page
+2024-04-01 16:41:28,448 - crm -INFO - Locator@//span[text()='Company Information']
+2024-04-01 16:41:43,510 - crm -INFO - 2
+2024-04-01 16:41:43,791 - crm -INFO - Screenshot taken for test case: orgEdtitionCheck
+2024-04-01 16:51:39,379 - crm -INFO - coming
+2024-04-01 16:51:39,389 - crm -INFO - Locator@div#brandBand_2
+2024-04-01 16:51:44,413 - crm -INFO - 1
+2024-04-01 16:51:44,424 - crm -INFO - Verify whether the user is able to Enter the Input details in Quick Find Box search box on the Home page
+2024-04-01 16:51:48,643 - crm -INFO - Successfully send keys of Quick Find Box search box on the Home page
+2024-04-01 16:51:51,898 - crm -INFO - Locator@//span[text()='Company Information']
+2024-04-01 16:52:36,928 - crm -INFO - 2
+2024-04-01 16:52:37,158 - crm -INFO - Screenshot taken for test case: orgEdtitionCheck
+2024-04-01 16:55:21,714 - crm -INFO - coming
+2024-04-01 16:55:21,723 - crm -INFO - Locator@div#brandBand_2
+2024-04-01 16:55:26,740 - crm -INFO - 1
+2024-04-01 16:55:26,755 - crm -INFO - Verify whether the user is able to Enter the Input details in Quick Find Box search box on the Home page
+2024-04-01 16:55:29,737 - crm -INFO - Successfully send keys of Quick Find Box search box on the Home page
+2024-04-01 16:55:33,128 - crm -INFO - Locator@//span[text()='Company Information']
+2024-04-01 16:55:48,153 - crm -INFO - 2
+2024-04-01 16:55:48,436 - crm -INFO - Screenshot taken for test case: orgEdtitionCheck
+2024-04-01 17:01:59,300 - crm -INFO - coming
+2024-04-01 17:01:59,308 - crm -INFO - Locator@div#brandBand_2
+2024-04-01 17:02:04,333 - crm -INFO - 1
+2024-04-01 17:02:04,345 - crm -INFO - Verify whether the user is able to Enter the Input details in Quick Find Box search box on the Home page
+2024-04-01 17:02:11,377 - crm -INFO - Successfully send keys of Quick Find Box search box on the Home page
+2024-04-01 17:02:14,647 - crm -INFO - Locator@//span[text()='Company Information']
+2024-04-01 17:02:29,697 - crm -INFO - Successfully Navigated to the company Information page, org edition is Developer Edition
+2024-04-01 17:02:29,700 - crm -INFO - 1
+2024-04-02 10:51:09,062 - crm -INFO - coming
+2024-04-02 10:51:09,076 - crm -INFO - Locator@div#brandBand_2
+2024-04-02 10:51:14,091 - crm -INFO - 1
+2024-04-02 10:51:14,101 - crm -INFO - Verify whether the user is able to Enter the Input details in Quick Find Box search box on the Home page
+2024-04-02 10:51:20,038 - crm -INFO - Successfully send keys of Quick Find Box search box on the Home page
+2024-04-02 10:51:23,213 - crm -INFO - Locator@//span[text()='Company Information']
+2024-04-02 10:51:38,281 - crm -INFO - Successfully Navigated to the company Information page, org edition is Developer Edition
+2024-04-02 10:51:38,284 - crm -INFO - 1
+2024-04-02 10:51:38,302 - crm -INFO - The count of the element is 1
+2024-04-02 10:51:38,302 - crm -INFO - currency is set to usd
+2024-04-02 10:51:38,305 - crm -INFO - 1
+2024-04-02 10:53:42,143 - crm -INFO - coming
+2024-04-02 10:53:42,152 - crm -INFO - Locator@div#brandBand_2
+2024-04-02 10:53:47,167 - crm -INFO - 1
+2024-04-02 10:53:47,189 - crm -INFO - Verify whether the user is able to Enter the Input details in Quick Find Box search box on the Home page
+2024-04-02 10:53:52,045 - crm -INFO - Successfully send keys of Quick Find Box search box on the Home page
+2024-04-02 10:53:55,194 - crm -INFO - Locator@//span[text()='Company Information']
+2024-04-02 10:54:10,392 - crm -INFO - Successfully Navigated to the company Information page, org edition is Developer Edition
+2024-04-02 10:54:10,395 - crm -INFO - 1
+2024-04-02 10:54:10,411 - crm -INFO - The count of the element is 0
+2024-04-02 10:54:10,411 - crm -INFO - currency is not set to usd
+2024-04-02 10:54:10,414 - crm -INFO - 1
+2024-04-02 11:38:58,907 - crm -INFO - coming
+2024-04-02 11:38:58,917 - crm -INFO - Locator@div#brandBand_2
+2024-04-02 11:39:03,941 - crm -INFO - 1
+2024-04-02 11:39:03,962 - crm -INFO - Verify whether the user is able to Enter the Input details in Quick Find Box search box on the Home page
+2024-04-02 11:39:07,848 - crm -INFO - Successfully send keys of Quick Find Box search box on the Home page
+2024-04-02 11:39:10,983 - crm -INFO - Locator@//span[text()='Company Information']
+2024-04-02 11:39:26,027 - crm -INFO - Successfully Navigated to the company Information page, org edition is Developer Edition
+2024-04-02 11:39:26,030 - crm -INFO - 1
+2024-04-02 11:39:26,072 - crm -INFO - The count of the element is 1
+2024-04-02 11:39:26,073 - crm -INFO - currency is set to usd
+2024-04-02 11:39:26,076 - crm -INFO - 1
+2024-04-02 11:46:24,060 - crm -INFO - coming
+2024-04-02 11:46:24,069 - crm -INFO - Locator@div#brandBand_2
+2024-04-02 11:46:29,087 - crm -INFO - 1
+2024-04-02 11:46:29,100 - crm -INFO - Verify whether the user is able to Enter the Input details in Quick Find Box search box on the Home page
+2024-04-02 11:46:31,947 - crm -INFO - Successfully send keys of Quick Find Box search box on the Home page
+2024-04-02 11:46:35,040 - crm -INFO - Locator@//span[text()='Company Information']
+2024-04-02 11:46:50,101 - crm -INFO - Successfully Navigated to the company Information page, org edition is Developer Edition
+2024-04-02 11:46:50,105 - crm -INFO - 1
+2024-04-02 11:46:50,134 - crm -INFO - The count of the element is 1
+2024-04-02 11:46:50,135 - crm -INFO - currency is set to usd
+2024-04-02 11:46:50,137 - crm -INFO - 1
+2024-04-02 11:47:42,267 - crm -INFO - coming
+2024-04-02 11:47:42,277 - crm -INFO - Locator@div#brandBand_2
+2024-04-02 11:47:47,291 - crm -INFO - 1
+2024-04-02 11:47:47,306 - crm -INFO - Verify whether the user is able to Enter the Input details in Quick Find Box search box on the Home page
+2024-04-02 11:47:49,242 - crm -INFO - Successfully send keys of Quick Find Box search box on the Home page
+2024-04-02 11:47:52,435 - crm -INFO - Locator@//span[text()='Company Information']
+2024-04-02 11:48:07,497 - crm -INFO - Successfully Navigated to the company Information page, org edition is Developer Edition
+2024-04-02 11:48:07,500 - crm -INFO - 1
+2024-04-02 11:48:07,528 - crm -INFO - The count of the element is 0
+2024-04-02 11:48:07,529 - crm -INFO - currency is not set to usd
+2024-04-02 11:48:07,540 - crm -INFO - 2
+2024-04-02 11:48:07,542 - crm -INFO - 1
+2024-04-02 11:59:33,540 - crm -INFO - coming
+2024-04-02 11:59:33,548 - crm -INFO - Locator@div#brandBand_2
+2024-04-02 11:59:38,570 - crm -INFO - 1
+2024-04-02 11:59:38,580 - crm -INFO - Verify whether the user is able to Enter the Input details in Quick Find Box search box on the Home page
+2024-04-02 11:59:42,849 - crm -INFO - Successfully send keys of Quick Find Box search box on the Home page
+2024-04-02 11:59:45,972 - crm -INFO - Locator@//span[text()='Company Information']
+2024-04-02 12:00:01,032 - crm -INFO - Successfully Navigated to the company Information page, org edition is Developer Edition
+2024-04-02 12:00:01,034 - crm -INFO - 1
+2024-04-02 12:00:01,063 - crm -INFO - The count of the element is 0
+2024-04-02 12:00:01,063 - crm -INFO - currency is not set to usd
+2024-04-02 12:00:01,073 - crm -INFO - 2
+2024-04-02 12:00:01,076 - crm -INFO - 1
+2024-04-02 13:01:54,276 - crm -INFO - coming
+2024-04-02 13:01:54,286 - crm -INFO - Locator@div#brandBand_2
+2024-04-02 13:01:59,310 - crm -INFO - Verify whether the user is able to Enter the Input details in Quick Find Box search box on the Home page
+2024-04-02 13:02:05,630 - crm -INFO - Successfully send keys of Quick Find Box search box on the Home page
+2024-04-02 13:02:08,934 - crm -INFO - Locator@//span[text()='Company Information']
+2024-04-02 13:02:24,020 - crm -INFO - Successfully Navigated to the company Information page, org edition is Developer Edition
+2024-04-02 13:02:24,047 - crm -INFO - The count of the element is 0
+2024-04-02 13:02:24,047 - crm -INFO - currency is not set to usd
+2024-04-02 13:02:24,056 - crm -INFO - 1
