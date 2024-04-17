@@ -3,16 +3,16 @@
 <suite name="Failed suite [Providio Smoke Test]">
   <test thread-count="5" name="SmokeTest(failed)">
     <classes>
-      <class name="TestScripts.OrgEditionandCurrencyCheck">
+      <class name="TestScripts.CheckOrderSummeries">
         <methods>
-          <include name="orgEdtitionCheck"/>
           <include name="setupLogger"/>
           <include name="setUpforReport"/>
           <include name="afterClass"/>
+          <include name="orderSummeries"/>
           <include name="tearDown"/>
           <include name="afterMethod"/>
         </methods>
-      </class> <!-- TestScripts.OrgEditionandCurrencyCheck -->
+      </class> <!-- TestScripts.CheckOrderSummeries -->
     </classes>
   </test> <!-- SmokeTest(failed) -->
 </suite> <!-- Failed suite [Providio Smoke Test] -->

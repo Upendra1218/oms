@@ -25,19 +25,52 @@ import data.TestData;
 public class baseClass {
 
 	private static TestData TD = new TestData();
+	
 	protected static Logger logger;
 	protected static Page page;
+	protected static Page crmpopUp;
+	protected static Page CNRTpopUp;
+	protected static Page instllpopUp;
+	protected static Page PlaceTheOrderpopUp;
+	protected static Browser browser;
+	
+	//shipping address setup 
+	public static String ShippingAddressAddress1 = "";
+	public String ShippingAddress2 = "";
+	public String ShippingCity = "";
+	public static String ShippingStates = "";
+	public static String ShippingPostalCodes = "";
+
+	//billing address 
+	public String BillinggAddress1 = "";
+	public String BillingAddress2 = "";
+	public String BillingCity = "";
+	public String BillingState = "";
+	public String BillingPostalCode = "";
+
+
+	public static String OrderNumbers ="";
+	public static String OrderDates = "";
+	public static double Amount = 0;
+	public String BillingAddress = "";
+
+	public static String OrderNumberDefault ="00002611";
+	public double OrderAmount = 0;
+	public static int lineItemsStoreFront = 0;
+	public String LineItemStatus="";
+
+
+	
 	// Flags for tracking test state
     protected static boolean isLoggedIn = false; 
 
 	// ExtentReports and ExtentTest instances for reporting
 	protected static ExtentReports report = new ExtentReports();
-	private ExtentSparkReporter reporter = new ExtentSparkReporter("C:\\Users\\UpendraReddy\\OneDrive - ETG Global Services Pvt. Ltd\\Desktop\\PlayWrite\\playWrite\\Reports\\\\ProvidioTestReport.html");
+	private ExtentSparkReporter reporter = new ExtentSparkReporter("C:\\Users\\Upendra Reddy\\git\\oms\\playWrite\\Reports\\ProvidioTestReport.html");
 
 	// Reporting
 	// static ExtentReports report;
 	protected static ExtentTest test;
-	
 	Playwright playwright = Playwright.create();
 
 	@BeforeSuite
@@ -47,17 +80,13 @@ public class baseClass {
 		// Attach the ExtentSparkReporter to the ExtentReports
 		report.attachReporter(reporter);
 		// Initialize the WebDriver (assuming the method initializeDriver() is available
-		
-		Browser browser = playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(false));
+		browser = playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(false));
 		//BrowserContext brContext = browser.newContext (new Browser.NewContextOptions().setStorageStatePath(Paths.get("login.json")));
 		page = browser.newPage();
-		page.setViewportSize(1900, 1080);
-		page.navigate(TD.baseURL);
-		
-		
+		///page.setViewportSize(1900, 1080);
+		page.navigate(TD.sandBoxURL);
 		Thread.sleep(2000);
 		//playWrightFactory.initBrowser("chrome");
-
 	}
 
 	@BeforeClass
@@ -91,7 +120,7 @@ public class baseClass {
 	            String destinationPath = "./Screenshots/" + fileName;
 	            page.screenshot(new Page.ScreenshotOptions().setPath(Paths.get(destinationPath)));
 	            try {
-	                String filePathString = "C:\\Users\\UpendraReddy\\OneDrive - ETG Global Services Pvt. Ltd\\Desktop\\PlayWrite\\playWrite\\Screenshots\\" + fileName;
+	                String filePathString = "C:\\Users\\Upendra Reddy\\git\\oms\\playWrite\\Screenshots\\" + fileName;
 	                //logger.info(filePathString);
 	                logger.info("Screenshot taken for test case: " + result.getMethod().getMethodName());
 	                test.fail("Screenshot", MediaEntityBuilder.createScreenCaptureFromPath(filePathString).build());
@@ -108,23 +137,16 @@ public class baseClass {
 	@AfterSuite
 	public void tearDown() throws IOException, InterruptedException {
 		report.flush();
-
 		Thread.sleep(10000);
 		//page.navigate("https://login.salesforce.com/");
-		page.navigate("C:\\Users\\UpendraReddy\\OneDrive - ETG Global Services Pvt. Ltd\\Desktop\\PlayWrite\\playWrite\\Reports\\ProvidioTestReport.html");
-		
+		page.navigate("C:\\Users\\Upendra Reddy\\git\\oms\\playWrite\\Reports\\ProvidioTestReport.html");
 		Thread.sleep(2000);
 		page.click("//i[@class='fa fa-bar-chart']");
-		
-		page.screenshot(new Page.ScreenshotOptions().setPath(Paths.get("C:\\Users\\UpendraReddy\\OneDrive - ETG Global Services Pvt. Ltd\\Desktop\\PlayWrite\\playWrite\\Reports\\ReportsScreenshot.png")));
+		page.screenshot(new Page.ScreenshotOptions().setPath(Paths.get("C:\\Users\\Upendra Reddy\\git\\oms\\playWrite\\Reports\\ReportsScreenshot.png")));
 		Thread.sleep(10000);
-		
       page.close();
       playwright.close();
-		
-
-
-
+	
 	}
 
 

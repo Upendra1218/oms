@@ -16,12 +16,28 @@ public class loginTest extends baseClass{
 	
 	@Test//(dependsOnMethods = {"testScripts.CheckTheOrgEditionTests.VerifyingCompanyInfoSearchAndOrgEdition"})
     public void Verifyinglogin()throws Exception {
-		LoginPage loginPage = new LoginPage(page);
-		loginPage.login();
-		logger.info("coming");
-		// Check if the login form is visible
-		// Find the element using CSS selector
-        Locator elementHandle = page.locator("div#brandBand_2");
+		loginDetails();
+		
+        Thread.sleep(15000);
+        
+    }
+	
+	public static void loginDetails() throws Exception {
+		crmpopUp = page.waitForPopup(()->{
+			Actions.click(page, "a[target='_blank']");
+		});
+		crmpopUp.waitForLoadState();
+		crmpopUp.navigate(TD.baseURL);
+		crmpopUp.fill(CrmXpaths.userName, TD.userName);
+		Thread.sleep(1000);
+		// Enter password
+		crmpopUp.fill(CrmXpaths.Pwd, TD.password);
+		Thread.sleep(1000);
+		// Click on the login button
+		crmpopUp.click(CrmXpaths.loginBtn);
+		Thread.sleep(5000);
+		
+		Locator elementHandle = crmpopUp.locator("div#brandBand_2");
         logger.info(elementHandle);
         // Check if the element is found
         if (elementHandle != null) {
@@ -33,8 +49,6 @@ public class loginTest extends baseClass{
             // Element is not found
             System.out.println("Element is not found");
         }
-        Thread.sleep(5000);
-        
-    }
+	}
 
 }

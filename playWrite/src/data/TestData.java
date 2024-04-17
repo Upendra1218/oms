@@ -4,12 +4,31 @@ public class TestData {
 	
 	public String baseURL = "https://login.salesforce.com/"; // Base URL for the application
 	//----------login details-------------------------
-	public String   userName = "upendra2024@gmail.com"; //packagetest002@etg.digital  / Testing@1234, upendraoms12@gmail.com. omsQuickStratTrail@gmail.com, Omsautomation@123, lalitcharan@etg.digital, Testing@123, akhimusku@gmail.com, , upendra007@etg.digital
-	public String   password = "Testing@1234";
+	public String   userName = "etgqateam.oms@etg.digital"; //packagetest002@etg.digital  / Testing@1234, upendraoms12@gmail.com. omsQuickStratTrail@gmail.com, Omsautomation@123, lalitcharan@etg.digital, Testing@123, akhimusku@gmail.com, , upendra007@etg.digital
+	public String   password = "ETG$2024";
+	
+
+	public String   Connection_Name = "SampleConection";
+	public String   Instance_ID = "ZZQI_003";
+	
+	public String PackageUrl = "https://login.salesforce.com/packaging/installPackage.apexp?p0=04tGB000003YuD2YAK"; // Base URL for the application
+	public String Package_Key ="GB000000Kz2w0AC";
+	
+	public String sandBoxURL = "https://zzqi-003.dx.commercecloud.salesforce.com/on/demandware.store/Sites-Site/default/ViewApplication-SelectSite?MenuGroupID=ChannelMenu&ChannelID=&SelectedSiteRedirect=DisplayWelcomePage&csrf_token=O4fGn204zJ6OSSzvvcJPRfKwwPIdb4_sCRMbDeVn_jFfyyqdUNtWbaj_UPwEOna0Ae4zgbJZADs-30_RfU8gbl6QOFyLT0eAlC5yn-wwmk-rK-CMcv99ub_-_YQclRP6D7Xnjs74bjbLed_yUsrVad-t-x3Eczj4RNpoUblGUO0ECdXHYZU=";
+	public String   userName_002 = "shankar.challa@etg.digital"; 
+	public String   password_002 = "Testing@1234";
+	
+	public String storeFrontURL ="https://zzqi-003.dx.commercecloud.salesforce.com/on/demandware.store/Sites-RefArch-Site/en_US";
+	
+	public String   userNameStoreFront = "BrainTree12@gmail.com";
+	public String   passwordStoreFront = "rquNbHzF3G8U@BP";
+	
+	
 	
 	//-------------------search-----------------------
 		public   String QuickFindBox_Input_CompanyInfo = "Company Information";
 		public   String SelectCurrent_IP_CompanyInfo_Value = "1";
+		public   String SelectCurrent_IP_RecordType_Value = "4";
 		public   String QuickFindBox_Input_OrderSettings = "Order Settings";
 		public   String QuickFindBox_Input_PersonAccounts = "Person Accounts";
 		public   String QuickFindBox_Input_Ordermanagment = "Order Management";
@@ -65,7 +84,10 @@ public class TestData {
 		public   String Search_Home_Page_IP_FieldName="Search box on the Home Page";
 		
 		//------------------------data -------------------------------------------------------
-		public   String Search_Home_Page_IP_Data="Shirts";
+		public   String Search_Home_Page_IP_Data="Checked Silk Tie";
+		
+		
+		
 
 
 }

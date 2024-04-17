@@ -1,16 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <suite name="Providio Smoke Test">
-
 	 <test name="SmokeTest">
-	
         <classes>
-		<class name ="TestScripts.loginTest"/>
+	    
+		<!-- <class name ="TestScripts.loginTest"/>
 		<class name ="TestScripts.OrgEditionandCurrencyCheck"/> 
 	 	<methods>
 	 	  <include name="orgEdtitionCheck" />	
 	 	  <include name="currecyIsSetToUsd" />							 
-       </methods>     
+       </methods>  
+       <class name ="TestScripts.orderSettings"/> 
+       <class name ="TestScripts.EnablePersonAccounts"/>  
+       <class name ="TestScripts.OrderManagement"/>
+       <class name ="TestScripts.omniChannelInventry"/> 
+       <class name ="TestScripts.ConnectWithB2cCommerence"/>
+       <class name ="TestScripts.pathEnableSettings"/>
+       
+       <class name ="TestScripts.InstallPackage"/>
+       
+       <class name ="TestScripts.AddProductFamilyPicklistValues"/>
+       <class name ="TestScripts.AddOrderStatusPickListValues"/>
+       <class name ="TestScripts.AddOrderSummeryStatusPicklistValues"/>
+       <class name ="TestScripts.CreateShippingMethods"/>
+       <class name ="TestScripts.CreateOrderDeliveryMethods"/>
+       
+       <class name ="TestScripts.PlaceTheOrder"/>-->
+       <class name ="TestScripts.CheckOrderSummeries"/>
+      
      </classes>
     </test>
 </suite>

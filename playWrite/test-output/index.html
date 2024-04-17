@@ -7,7 +7,7 @@
 
     <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
     <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
-    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="jquery.min.js"></script>
     <script type="text/javascript" src="testng-reports.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
     <script type='text/javascript'>
@@ -21,11 +21,12 @@
      -->
   </head>
 
-  <body>    <div class="top-banner-root">
+  <body>
+    <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Providio_Smoke_Test" class="navigator-link">
-              <span class="suite-name border-passed">Providio Smoke Test</span>
+              <span class="suite-name border-failed">Providio Smoke Test</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Providio_Smoke_Test" class="navigator-link ">
-                    <span>C:\Users\UpendraReddy\OneDrive - ETG Global Services Pvt. Ltd\Desktop\PlayWrite\playWrite\Test.Xml</span>
+                    <span>C:\Users\Upendra Reddy\git\oms\playWrite\Test.Xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,31 +93,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">1 method, 1 failed,   </span>
                   </li>
                   <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Providio_Smoke_Test" class="hide-methods passed suite-Providio_Smoke_Test"> (hide)</a> <!-- hide-methods passed suite-Providio_Smoke_Test -->
-                      <a href="#" panel-name="suite-Providio_Smoke_Test" class="show-methods passed suite-Providio_Smoke_Test"> (show)</a> <!-- show-methods passed suite-Providio_Smoke_Test -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Providio_Smoke_Test" class="hide-methods failed suite-Providio_Smoke_Test"> (hide)</a> <!-- hide-methods failed suite-Providio_Smoke_Test -->
+                      <a href="#" panel-name="suite-Providio_Smoke_Test" class="show-methods failed suite-Providio_Smoke_Test"> (show)</a> <!-- show-methods failed suite-Providio_Smoke_Test -->
                     </span>
-                    <div class="method-list-content passed suite-Providio_Smoke_Test">
+                    <div class="method-list-content failed suite-Providio_Smoke_Test">
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Providio_Smoke_Test" title="TestScripts.loginTest" class="method navigator-link" hash-for-method="Verifyinglogin">Verifyinglogin</a> <!-- method navigator-link -->
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Providio_Smoke_Test" title="TestScripts.CheckOrderSummeries" class="method navigator-link" hash-for-method="orderSummeries">orderSummeries</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Providio_Smoke_Test" title="TestScripts.OrgEditionandCurrencyCheck" class="method navigator-link" hash-for-method="currecyIsSetToUsd">currecyIsSetToUsd</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Providio_Smoke_Test" title="TestScripts.OrgEditionandCurrencyCheck" class="method navigator-link" hash-for-method="orgEdtitionCheck">orgEdtitionCheck</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content passed suite-Providio_Smoke_Test -->
+                    </div> <!-- method-list-content failed suite-Providio_Smoke_Test -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -128,47 +119,34 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Providio_Smoke_Test" class="panel Providio_Smoke_Test">
-          <div class="suite-Providio_Smoke_Test-class-passed">
+          <div class="suite-Providio_Smoke_Test-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">TestScripts.OrgEditionandCurrencyCheck</span>
+              <img src="failed.png"/>
+              <span class="class-name">TestScripts.CheckOrderSummeries</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="currecyIsSetToUsd">
-                  </a> <!-- currecyIsSetToUsd -->
-                  <span class="method-name">currecyIsSetToUsd</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="orgEdtitionCheck">
-                  </a> <!-- orgEdtitionCheck -->
-                  <span class="method-name">orgEdtitionCheck</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Providio_Smoke_Test-class-passed -->
-          <div class="suite-Providio_Smoke_Test-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">TestScripts.loginTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="Verifyinglogin">
-                  </a> <!-- Verifyinglogin -->
-                  <span class="method-name">Verifyinglogin</span>
+                  <a name="orderSummeries">
+                  </a> <!-- orderSummeries -->
+                  <span class="method-name">orderSummeries</span>
+                  <div class="stack-trace">java.lang.NumberFormatException: empty String
+	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:1842)
+	at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+	at java.base/java.lang.Double.parseDouble(Double.java:792)
+	at TestScripts.CheckOrderSummeries.AllocatedPrice(CheckOrderSummeries.java:100)
+	at TestScripts.CheckOrderSummeries.orderSummeries(CheckOrderSummeries.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Providio_Smoke_Test-class-passed -->
+          </div> <!-- suite-Providio_Smoke_Test-class-failed -->
         </div> <!-- panel Providio_Smoke_Test -->
         <div panel-name="test-xml-Providio_Smoke_Test" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\UpendraReddy\OneDrive - ETG Global Services Pvt. Ltd\Desktop\PlayWrite\playWrite\Test.Xml</span>
+            <span class="header-content">C:\Users\Upendra Reddy\git\oms\playWrite\Test.Xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -177,13 +155,7 @@
 &lt;suite name=&quot;Providio Smoke Test&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;SmokeTest&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;TestScripts.loginTest&quot;/&gt;
-      &lt;class name=&quot;TestScripts.OrgEditionandCurrencyCheck&quot;&gt;
-        &lt;methods&gt;
-          &lt;include name=&quot;orgEdtitionCheck&quot;/&gt;
-          &lt;include name=&quot;currecyIsSetToUsd&quot;/&gt;
-        &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- TestScripts.OrgEditionandCurrencyCheck --&gt;
+      &lt;class name=&quot;TestScripts.CheckOrderSummeries&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- SmokeTest --&gt;
 &lt;/suite&gt; &lt;!-- Providio Smoke Test --&gt;
@@ -197,7 +169,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">SmokeTest (2 classes)</span>
+                <span class="test-name">SmokeTest (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -223,24 +195,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'orgEdtitionCheck')
-data.setCell(0, 2, 'TestScripts.OrgEditionandCurrencyCheck')
-data.setCell(0, 3, 22454);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'Verifyinglogin')
-data.setCell(1, 2, 'TestScripts.loginTest')
-data.setCell(1, 3, 10615);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'currecyIsSetToUsd')
-data.setCell(2, 2, 'TestScripts.OrgEditionandCurrencyCheck')
-data.setCell(2, 3, 39);
+data.setCell(0, 1, 'orderSummeries')
+data.setCell(0, 2, 'TestScripts.CheckOrderSummeries')
+data.setCell(0, 3, 99118);
 window.suiteTableData['Providio_Smoke_Test']= { tableData: data, tableDiv: 'times-div-Providio_Smoke_Test'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 33 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Providio_Smoke_Test">
               </div> <!-- times-div-Providio_Smoke_Test -->
             </div> <!-- times-div -->
@@ -255,18 +219,9 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Providio_Smoke_Test" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">2 ignored methods</span>
+            <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">TestScripts.OrgEditionandCurrencyCheck</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">tearDown</span>
-                <br/>
-                <span class="ignored-method-name">setUpforReport</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Providio_Smoke_Test" class="panel">
@@ -275,64 +230,32 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">TestScripts.loginTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">TestScripts.CheckOrderSummeries</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">setUpforReport</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
                 <span class="method-name">setupLogger</span>
-                <span class="method-start">4809 ms</span>
+                <span class="method-start">6347 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
-                <span class="method-name">afterClass(public void TestScripts.loginTest.Verifyinglogin() throws java.lang.Exception)</span>
-                <span class="method-start">4858 ms</span>
+                <span class="method-name">afterClass(public static void TestScripts.CheckOrderSummeries.orderSummeries() throws java.lang.Exception)</span>
+                <span class="method-start">6629 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">Verifyinglogin</span>
-                <span class="method-start">4866 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">orderSummeries</span>
+                <span class="method-start">6645 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">afterMethod([TestResult name=Verifyinglogin status=SUCCESS method=loginTest.Verifyinglogin()[pri:0, instance:Tes...)</span>
-                <span class="method-start">15484 ms</span>
+                <span class="method-name">afterMethod([TestResult name=orderSummeries status=FAILURE method=CheckOrderSummeries.orderSummeries()[pri:0, in...)</span>
+                <span class="method-start">105770 ms</span>
               </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">TestScripts.OrgEditionandCurrencyCheck</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">setupLogger</span>
-                <span class="method-start">15487 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="configuration-method before">
-                <span class="method-name">afterClass(public static void TestScripts.OrgEditionandCurrencyCheck.orgEdtitionCheck() throws java.lang.Interr...)</span>
-                <span class="method-start">15491 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">orgEdtitionCheck</span>
-                <span class="method-start">15492 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod([TestResult name=orgEdtitionCheck status=SUCCESS method=OrgEditionandCurrencyCheck.orgEdtitionCheck(...)</span>
-                <span class="method-start">37948 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">currecyIsSetToUsd</span>
-                <span class="method-start">37949 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">afterClass(public static void TestScripts.OrgEditionandCurrencyCheck.currecyIsSetToUsd())</span>
-                <span class="method-start">37949 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod([TestResult name=currecyIsSetToUsd status=SUCCESS method=OrgEditionandCurrencyCheck.currecyIsSetToUs...)</span>
-                <span class="method-start">37990 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">TestScripts.loginTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">38015 ms</span>
+                <span class="method-start">107055 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

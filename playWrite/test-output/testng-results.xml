@@ -1,109 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-02T11:59:27 IST" name="Providio Smoke Test" finished-at="2024-04-02T12:00:01 IST" duration-ms="33202">
+  <suite started-at="2024-04-17T17:00:00 IST" name="Providio Smoke Test" finished-at="2024-04-17T17:01:40 IST" duration-ms="100853">
     <groups>
     </groups>
-    <test started-at="2024-04-02T11:59:27 IST" name="SmokeTest" finished-at="2024-04-02T12:00:01 IST" duration-ms="33202">
-      <class name="TestScripts.OrgEditionandCurrencyCheck">
-        <test-method is-config="true" signature="setupLogger()[pri:0, instance:TestScripts.OrgEditionandCurrencyCheck@3b220bcb]" started-at="2024-04-02T11:59:38 IST" name="setupLogger" finished-at="2024-04-02T11:59:38 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupLogger -->
-        <test-method is-config="true" signature="afterClass(java.lang.reflect.Method)[pri:0, instance:TestScripts.OrgEditionandCurrencyCheck@3b220bcb]" started-at="2024-04-02T11:59:38 IST" name="afterClass" finished-at="2024-04-02T11:59:38 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public static void TestScripts.OrgEditionandCurrencyCheck.orgEdtitionCheck() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method signature="orgEdtitionCheck()[pri:0, instance:TestScripts.OrgEditionandCurrencyCheck@3b220bcb]" started-at="2024-04-02T11:59:38 IST" name="orgEdtitionCheck" finished-at="2024-04-02T12:00:01 IST" duration-ms="22454" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- orgEdtitionCheck -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TestScripts.OrgEditionandCurrencyCheck@3b220bcb]" started-at="2024-04-02T12:00:01 IST" name="afterMethod" finished-at="2024-04-02T12:00:01 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=orgEdtitionCheck status=SUCCESS method=OrgEditionandCurrencyCheck.orgEdtitionCheck()[pri:0, instance:TestScripts.OrgEditionandCurrencyCheck@3b220bcb] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="currecyIsSetToUsd()[pri:0, instance:TestScripts.OrgEditionandCurrencyCheck@3b220bcb]" started-at="2024-04-02T12:00:01 IST" name="currecyIsSetToUsd" finished-at="2024-04-02T12:00:01 IST" duration-ms="39" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- currecyIsSetToUsd -->
-        <test-method is-config="true" signature="afterClass(java.lang.reflect.Method)[pri:0, instance:TestScripts.OrgEditionandCurrencyCheck@3b220bcb]" started-at="2024-04-02T12:00:01 IST" name="afterClass" finished-at="2024-04-02T12:00:01 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public static void TestScripts.OrgEditionandCurrencyCheck.currecyIsSetToUsd()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TestScripts.OrgEditionandCurrencyCheck@3b220bcb]" started-at="2024-04-02T12:00:01 IST" name="afterMethod" finished-at="2024-04-02T12:00:01 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=currecyIsSetToUsd status=SUCCESS method=OrgEditionandCurrencyCheck.currecyIsSetToUsd()[pri:0, instance:TestScripts.OrgEditionandCurrencyCheck@3b220bcb] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- TestScripts.OrgEditionandCurrencyCheck -->
-      <class name="TestScripts.loginTest">
-        <test-method is-config="true" signature="setUpforReport()[pri:0, instance:TestScripts.loginTest@4bef0fe3]" started-at="2024-04-02T11:59:23 IST" name="setUpforReport" finished-at="2024-04-02T11:59:27 IST" duration-ms="4788" status="PASS">
+    <test started-at="2024-04-17T17:00:00 IST" name="SmokeTest" finished-at="2024-04-17T17:01:40 IST" duration-ms="100853">
+      <class name="TestScripts.CheckOrderSummeries">
+        <test-method is-config="true" signature="setUpforReport()[pri:0, instance:TestScripts.CheckOrderSummeries@1b84f475]" started-at="2024-04-17T16:59:53 IST" name="setUpforReport" finished-at="2024-04-17T17:00:00 IST" duration-ms="6171" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpforReport -->
-        <test-method is-config="true" signature="setupLogger()[pri:0, instance:TestScripts.loginTest@4bef0fe3]" started-at="2024-04-02T11:59:27 IST" name="setupLogger" finished-at="2024-04-02T11:59:27 IST" duration-ms="39" status="PASS">
+        <test-method is-config="true" signature="setupLogger()[pri:0, instance:TestScripts.CheckOrderSummeries@1b84f475]" started-at="2024-04-17T17:00:00 IST" name="setupLogger" finished-at="2024-04-17T17:00:00 IST" duration-ms="258" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupLogger -->
-        <test-method is-config="true" signature="afterClass(java.lang.reflect.Method)[pri:0, instance:TestScripts.loginTest@4bef0fe3]" started-at="2024-04-02T11:59:27 IST" name="afterClass" finished-at="2024-04-02T11:59:27 IST" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="afterClass(java.lang.reflect.Method)[pri:0, instance:TestScripts.CheckOrderSummeries@1b84f475]" started-at="2024-04-17T17:00:00 IST" name="afterClass" finished-at="2024-04-17T17:00:00 IST" duration-ms="8" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void TestScripts.loginTest.Verifyinglogin() throws java.lang.Exception]]>
+                <![CDATA[public static void TestScripts.CheckOrderSummeries.orderSummeries() throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method signature="Verifyinglogin()[pri:0, instance:TestScripts.loginTest@4bef0fe3]" started-at="2024-04-02T11:59:27 IST" name="Verifyinglogin" finished-at="2024-04-02T11:59:38 IST" duration-ms="10615" status="PASS">
+        <test-method signature="orderSummeries()[pri:0, instance:TestScripts.CheckOrderSummeries@1b84f475]" started-at="2024-04-17T17:00:00 IST" name="orderSummeries" finished-at="2024-04-17T17:01:39 IST" duration-ms="99118" status="FAIL">
+          <exception class="java.lang.NumberFormatException">
+            <message>
+              <![CDATA[empty String]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NumberFormatException: empty String
+at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:1842)
+at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+at java.base/java.lang.Double.parseDouble(Double.java:792)
+at TestScripts.CheckOrderSummeries.AllocatedPrice(CheckOrderSummeries.java:100)
+at TestScripts.CheckOrderSummeries.orderSummeries(CheckOrderSummeries.java:32)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NumberFormatException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Verifyinglogin -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TestScripts.loginTest@4bef0fe3]" started-at="2024-04-02T11:59:38 IST" name="afterMethod" finished-at="2024-04-02T11:59:38 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- orderSummeries -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TestScripts.CheckOrderSummeries@1b84f475]" started-at="2024-04-17T17:01:39 IST" name="afterMethod" finished-at="2024-04-17T17:01:40 IST" duration-ms="1257" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Verifyinglogin status=SUCCESS method=loginTest.Verifyinglogin()[pri:0, instance:TestScripts.loginTest@4bef0fe3] output={null}]]]>
+                <![CDATA[[TestResult name=orderSummeries status=FAILURE method=CheckOrderSummeries.orderSummeries()[pri:0, instance:TestScripts.CheckOrderSummeries@1b84f475] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestScripts.loginTest@4bef0fe3]" started-at="2024-04-02T12:00:01 IST" name="tearDown" finished-at="2024-04-02T12:00:24 IST" duration-ms="23577" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestScripts.CheckOrderSummeries@1b84f475]" started-at="2024-04-17T17:01:40 IST" name="tearDown" finished-at="2024-04-17T17:02:06 IST" duration-ms="25709" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- TestScripts.loginTest -->
+      </class> <!-- TestScripts.CheckOrderSummeries -->
     </test> <!-- SmokeTest -->
   </suite> <!-- Providio Smoke Test -->
 </testng-results>

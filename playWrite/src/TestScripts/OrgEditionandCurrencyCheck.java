@@ -15,9 +15,9 @@ public class OrgEditionandCurrencyCheck extends baseClass{
 	@Test
 	public static void orgEdtitionCheck() throws InterruptedException {
 		if(isLoggedIn) {
-			Actions.sendKeys(page, CrmXpaths.qucikFindbox,TD.QuickFindBox_Input_CompanyInfo, TD.QuickFindBox_IP_FieldName);
+			Actions.sendKeys(crmpopUp, CrmXpaths.qucikFindbox,TD.QuickFindBox_Input_CompanyInfo, TD.QuickFindBox_IP_FieldName);
 			Thread.sleep(1000);
-			Actions.click(page, CrmXpaths.companyInfo);
+			Actions.click(crmpopUp, CrmXpaths.companyInfo);
 			Thread.sleep(2000);
 			validationspages.CompanyInfoHeader();
 			Thread.sleep(10000);
@@ -28,13 +28,21 @@ public class OrgEditionandCurrencyCheck extends baseClass{
 	@Test
 	public static void currecyIsSetToUsd() throws InterruptedException {
 		if(isLoggedIn) {
-			if(Actions.findTheFrmaAndElementElementPresent(page, CrmXpaths.Iframe, CrmXpaths.Currency)) {
+			if(Actions.findTheFrmaAndElementElementPresent(crmpopUp, CrmXpaths.Iframe, CrmXpaths.Currency)) {
 				logger.info("currency is set to usd");
+				test.pass("User is selected Currency field as USD");
 			}else {
 				logger.info("currency is not set to usd");
-				Actions.findTheFrameAndClickAction(page, CrmXpaths.Iframe, CrmXpaths.editbutton);
-				
-				Thread.sleep(10000000);
+				Actions.findTheFrameAndClickAction(crmpopUp, CrmXpaths.Iframe, CrmXpaths.editbutton);
+				Thread.sleep(3000);
+				Actions.findIframeandSelectValueFromDropDown(crmpopUp, CrmXpaths.Iframe, CrmXpaths.currncyDropDown, TD.SelectCurrent_IP_CompanyInfo_Value);
+				Thread.sleep(3000);
+				Actions.findTheFrameAndClickAction(crmpopUp, CrmXpaths.Iframe, CrmXpaths.currncySaveBtn);
+				Thread.sleep(3000);
+				Actions.javascriptAlert();
+				Thread.sleep(3000);
+				currecyIsSetToUsd();
+				Thread.sleep(10000);
 				
 			}
 		}

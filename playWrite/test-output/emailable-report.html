@@ -9,12 +9,17 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Providio Smoke Test</th></tr>
-<tr><td><a href="#t0">SmokeTest</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">33,202</td><td></td><td></td></tr>
+<tr><td><a href="#t0">SmokeTest</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">100,853</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Providio Smoke Test</th></tr></tbody><tbody id="t0"><tr><th colspan="4">SmokeTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">TestScripts.OrgEditionandCurrencyCheck</td><td><a href="#m0">currecyIsSetToUsd</a></td><td rowspan="1">1712039401035</td><td rowspan="1">39</td></tr><tr class="passedeven"><td><a href="#m1">orgEdtitionCheck</a></td><td rowspan="1">1712039378578</td><td rowspan="1">22454</td></tr><tr class="passedodd"><td rowspan="1">TestScripts.loginTest</td><td><a href="#m2">Verifyinglogin</a></td><td rowspan="1">1712039367952</td><td rowspan="1">10615</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Providio Smoke Test</th></tr></tbody><tbody id="t0"><tr><th colspan="4">SmokeTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">TestScripts.CheckOrderSummeries</td><td><a href="#m0">orderSummeries</a></td><td rowspan="1">1713353400500</td><td rowspan="1">99118</td></tr></tbody>
 </table>
-<h2>SmokeTest</h2><h3 id="m0">TestScripts.OrgEditionandCurrencyCheck#currecyIsSetToUsd</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">TestScripts.OrgEditionandCurrencyCheck#orgEdtitionCheck</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">TestScripts.loginTest#Verifyinglogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>SmokeTest</h2><h3 id="m0">TestScripts.CheckOrderSummeries#orderSummeries</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NumberFormatException: empty String
+	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:1842)
+	at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+	at java.base/java.lang.Double.parseDouble(Double.java:792)
+	at TestScripts.CheckOrderSummeries.AllocatedPrice(CheckOrderSummeries.java:100)
+	at TestScripts.CheckOrderSummeries.orderSummeries(CheckOrderSummeries.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
