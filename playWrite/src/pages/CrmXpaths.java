@@ -6,8 +6,6 @@ import baseClass.baseClass;
 import data.TestData;
 
 public class CrmXpaths extends baseClass{
-	private static TestData TD = new TestData();
-	
 	Page page;
 	public static String userName = "//input[@id='username']";
 	public static String Pwd = "//input[@id='password']";

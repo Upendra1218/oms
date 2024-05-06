@@ -7033,3 +7033,13 @@ $37.78
 2024-04-17 17:01:04,591 [main] INFO crm - line items is not matched
 2024-04-17 17:01:04,597 [main] INFO crm - status is not set to ordered
 2024-04-17 17:01:40,877 [main] INFO crm - Screenshot taken for test case: orderSummeries
+2024-04-18 10:46:22,485 [main] INFO crm - Locator@div#brandBand_2
+2024-04-18 10:46:28,598 [main] INFO crm - Verify whether the user is able to Enter the Input details in Quick Find Box search box on the Home page
+2024-04-18 10:46:28,632 [main] INFO crm - Successfully send keys of Quick Find Box search box on the Home page
+2024-04-18 10:46:59,676 [main] INFO crm - Verify whether the user is able to Enter the Input details in Quick Find Box search box on the Home page
+2024-04-18 10:47:07,079 [main] INFO crm - Successfully send keys of Quick Find Box search box on the Home page
+2024-04-18 10:47:23,460 [main] INFO crm - $37.78
+2024-04-18 10:47:23,461 [main] INFO crm - The amount is not matched
+2024-04-18 10:47:23,474 [main] INFO crm - line items is not matched
+2024-04-18 10:47:23,480 [main] INFO crm - status is not set to ordered
+2024-04-18 10:47:58,841 [main] INFO crm - Screenshot taken for test case: orderSummeries

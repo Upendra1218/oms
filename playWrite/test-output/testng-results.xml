@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-17T17:00:00 IST" name="Providio Smoke Test" finished-at="2024-04-17T17:01:40 IST" duration-ms="100853">
+  <suite started-at="2024-04-18T10:46:04 IST" name="Default suite" finished-at="2024-04-18T10:47:58 IST" duration-ms="113911">
     <groups>
     </groups>
-    <test started-at="2024-04-17T17:00:00 IST" name="SmokeTest" finished-at="2024-04-17T17:01:40 IST" duration-ms="100853">
+    <test started-at="2024-04-18T10:46:04 IST" name="Default test" finished-at="2024-04-18T10:47:58 IST" duration-ms="113911">
       <class name="TestScripts.CheckOrderSummeries">
-        <test-method is-config="true" signature="setUpforReport()[pri:0, instance:TestScripts.CheckOrderSummeries@1b84f475]" started-at="2024-04-17T16:59:53 IST" name="setUpforReport" finished-at="2024-04-17T17:00:00 IST" duration-ms="6171" status="PASS">
+        <test-method is-config="true" signature="setUpforReport()[pri:0, instance:TestScripts.CheckOrderSummeries@2f16c6b3]" started-at="2024-04-18T10:46:00 IST" name="setUpforReport" finished-at="2024-04-18T10:46:04 IST" duration-ms="4256" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpforReport -->
-        <test-method is-config="true" signature="setupLogger()[pri:0, instance:TestScripts.CheckOrderSummeries@1b84f475]" started-at="2024-04-17T17:00:00 IST" name="setupLogger" finished-at="2024-04-17T17:00:00 IST" duration-ms="258" status="PASS">
+        <test-method is-config="true" signature="setupLogger()[pri:0, instance:TestScripts.CheckOrderSummeries@2f16c6b3]" started-at="2024-04-18T10:46:04 IST" name="setupLogger" finished-at="2024-04-18T10:46:04 IST" duration-ms="31" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupLogger -->
-        <test-method is-config="true" signature="afterClass(java.lang.reflect.Method)[pri:0, instance:TestScripts.CheckOrderSummeries@1b84f475]" started-at="2024-04-17T17:00:00 IST" name="afterClass" finished-at="2024-04-17T17:00:00 IST" duration-ms="8" status="PASS">
+        <test-method is-config="true" signature="afterClass(java.lang.reflect.Method)[pri:0, instance:TestScripts.CheckOrderSummeries@2f16c6b3]" started-at="2024-04-18T10:46:04 IST" name="afterClass" finished-at="2024-04-18T10:46:05 IST" duration-ms="4" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,7 +26,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method signature="orderSummeries()[pri:0, instance:TestScripts.CheckOrderSummeries@1b84f475]" started-at="2024-04-17T17:00:00 IST" name="orderSummeries" finished-at="2024-04-17T17:01:39 IST" duration-ms="99118" status="FAIL">
+        <test-method signature="orderSummeries()[pri:0, instance:TestScripts.CheckOrderSummeries@2f16c6b3]" started-at="2024-04-18T10:46:05 IST" name="orderSummeries" finished-at="2024-04-18T10:47:58 IST" duration-ms="113500" status="FAIL">
           <exception class="java.lang.NumberFormatException">
             <message>
               <![CDATA[empty String]]>
@@ -70,22 +70,22 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- orderSummeries -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TestScripts.CheckOrderSummeries@1b84f475]" started-at="2024-04-17T17:01:39 IST" name="afterMethod" finished-at="2024-04-17T17:01:40 IST" duration-ms="1257" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TestScripts.CheckOrderSummeries@2f16c6b3]" started-at="2024-04-18T10:47:58 IST" name="afterMethod" finished-at="2024-04-18T10:47:58 IST" duration-ms="340" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=orderSummeries status=FAILURE method=CheckOrderSummeries.orderSummeries()[pri:0, instance:TestScripts.CheckOrderSummeries@1b84f475] output={null}]]]>
+                <![CDATA[[TestResult name=orderSummeries status=FAILURE method=CheckOrderSummeries.orderSummeries()[pri:0, instance:TestScripts.CheckOrderSummeries@2f16c6b3] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestScripts.CheckOrderSummeries@1b84f475]" started-at="2024-04-17T17:01:40 IST" name="tearDown" finished-at="2024-04-17T17:02:06 IST" duration-ms="25709" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestScripts.CheckOrderSummeries@2f16c6b3]" started-at="2024-04-18T10:47:58 IST" name="tearDown" finished-at="2024-04-18T10:48:26 IST" duration-ms="27683" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- TestScripts.CheckOrderSummeries -->
-    </test> <!-- SmokeTest -->
-  </suite> <!-- Providio Smoke Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
